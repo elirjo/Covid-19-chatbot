@@ -1,0 +1,47 @@
+{"intents":     [
+    {"tag":"greetings",
+        "patterns":["hello", "hi", "hey", "hola", "good day", "salutations","Yoo"],
+        "responses":["Hey there, how can I help you?", "Welcome, ", "whazza", "I'll just be a minute"]  
+        },
+    {"tag":"goodbye",
+        "patterns": ["cya", "See you Later", "take care", "hola", "good day"],
+        "responses":["have a good day", "it was nice having you", "Splendid day!"]  
+         },
+    {"tag":"age",
+        "patterns":["How old are you?", "What is your age?", "What year were you born?"],
+        "responses":["I am 29", "I'm 25", "I'm a 90's baby", "Some might say i'm a millennials"]  
+        },
+    {"tag":"name",
+        "patterns":["May I ask who this is?", "Who are you?", "Can you please tell me your name?", "Who are you?", "good day", "salutations",""],
+        "responses":["I am not human", "This isn't a human response", "I have no name", "some call me by my name"]  
+        },
+    {"tag":"symptoms",
+        "patterns":["headache", "tiredness", "flu", "vomit", "fever", "diarrhea"],
+        "responses":["One or more of these have been listed in our symptoms list", "You might be experiencing symptoms of the virus"] 
+        }, 
+    {"tag":"diagnosis",
+        "patterns":["How are you feeling today?", "What seems to be the problem?","And why have you come here today?",""],
+        "responses":["I'm nervous I have the virus", "I think I might have been infected", ""]  
+        },      
+    {"tag":"covid",
+        "patterns":["What is covid", "Can you tell me about this virus", "How will this virus impact me?", "Am I contagious"],
+        "responses":["It is a virus", "it is contagious", "it is as deadly as a flu"]  
+        },
+    {"tag":"ailment",
+        "patterns":["sore skin", "rash", "bleeding wound", "concussion", "swelling", "broken bone"],
+        "responses":["These don't seem to be any symptoms of Covid-19", "It appears there are very few chances of contacting the virus"]  
+        },
+    {"tag":"schedule",
+        "patterns":["sore skin", "rash", "bleeding wound", "concussion", "swelling", "broken bone"],
+        "responses":["These don't seem to be any symptoms of Covid-19", "It appears there are very few chances of contacting the virus"]  
+        },
+    {"tag":"unknown",
+        "patterns":["", "", "", "concussion", "swelling", "broken bone"],
+        "responses":["These don't seem to be any symptoms of Covid-19", "It appears there are very few chances of contacting the virus"]  
+        },
+    {"tag":"screening",
+        "patterns":["Have you traveled out of the country in the past 14 days?", "Have you been in contact with a plausible case?", "Are you presently feeling some of the Symptoms?"],
+        "responses":["Yes", "No"]  
+        }
+]}
+
