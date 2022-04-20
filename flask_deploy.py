@@ -9,7 +9,8 @@ import nltk
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
-
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 # chat initialization
 model = load_model("model.h5")
