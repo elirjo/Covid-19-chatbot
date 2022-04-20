@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Covid19chatbot'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AF2F70D99BEA4EF3936C8B23243E9E90 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4B4C4DC42384443BBB63F217121F30AF }}
